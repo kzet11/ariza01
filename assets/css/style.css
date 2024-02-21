@@ -1,0 +1,51 @@
+nav{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightslategrey;
+}
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    color: white;
+    display: block;
+    padding: 14px 16px; /* Arriba y abajo 14, izquierda y derecha 16 */
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:lightseagreen;
+  }
+  
+  .activo {
+    background-color:darkslateblue;
+  }
+  
+  .derecha {
+    float: right;
+  }
+  
+  .miJumbo {
+    margin-top: 1rem;
+    padding: 32px 16px;
+    background-color: #e9ecef;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+} 
+  
+  
