@@ -1,8 +1,11 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
 nav{
     display: flex; 
     justify-content: space-between;
     align-items: center;
-    background-color: lightslategrey;
+    background-color: #595353;
 }
 ul {
     display: flex;
@@ -11,6 +14,7 @@ ul {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
+    background-color: #595353;
   }
   
   li {
@@ -18,7 +22,7 @@ ul {
   }
   
   li a {
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     padding: 14px 16px; /* Arriba y abajo 14, izquierda y derecha 16 */
     text-decoration: none;
@@ -39,7 +43,7 @@ ul {
   .miJumbo {
     margin-top: 1rem;
     padding: 32px 16px;
-    background-color: #e9ecef;
+    background-color:white;
     border-radius: 0.5rem;
     text-align: center;
   }
